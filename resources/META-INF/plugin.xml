@@ -1,0 +1,25 @@
+<idea-plugin version="2">
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Plugin display name here</name>
+  <version>1.0</version>
+  <vendor email="hanghbut@sina.cn" url="http://www.yxffcode.cn">GaoHang</vendor>
+
+  <description><![CDATA[
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="hweb" anchor="right" factoryClass="cn.yxffcode.intellij.webbrowser.WebToolWindowFactory"></toolWindow>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+
+</idea-plugin>
